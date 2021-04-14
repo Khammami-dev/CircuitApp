@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    android:paddingLeft="50px"
+    android:paddingTop="50px"
+    android:paddingRight="50px"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="         Circuit APP"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:paddingBottom="100px"
+        android:text="               Page connexion"
+        android:textSize="24sp"
+        app:autoSizeTextType="none" />
+
+    <EditText
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="user"
+        android:inputType="textPersonName"
+        android:paddingBottom="50px" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mot De Passe"
+        android:inputType="textPassword"
+        android:paddingBottom="50px"
+        tools:text="Mot De Passe" />
+
+    <Button
+        android:id="@+id/btnConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:paddingBottom="20px"
+        android:text="Connecter"
+        app:backgroundTint="#2196F3" />
+
+    <Button
+        android:id="@+id/btnInscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20px"
+        android:text="Inscription"
+        app:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe oublier"
+        app:backgroundTint="#F44336" />
+
+</LinearLayout>
